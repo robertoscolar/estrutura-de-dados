@@ -8,7 +8,6 @@
 | Caso médio              | O(n²)        | Combinações típicas de elementos exigem múltiplas trocas e comparações.   |
 | Pior caso               | O(n²)        | Quando a lista está em ordem reversa, exige o máximo de trocas possíveis. |
 
-
 ---
 
 ## Explicação
@@ -65,9 +64,6 @@ Dada a lista: `[5, 3, 8, 6, 2]`
    - `[3, 2, 5, 6, 8]` → Troca 3 e 2 → `[2, 3, 5, 6, 8]`
 
 5. **Fim do Processo**:
-<<<<<<< HEAD
-   - Lista final: `[2, 3, 5, 6, 8]` (ordenada).
-=======
    - Lista final: `[2, 3, 5, 6, 8]` (ordenada).
   
 ---
@@ -79,4 +75,3 @@ Use o **Bubble Sort** apenas para:
    - Conjuntos de dados muito pequenos.
 
 Para aplicações reais e listas maiores, prefira algoritmos mais eficientes, como **Merge Sort** ou **Quick Sort**.
->>>>>>> ebb5a185155a50e655ff67dc6ded05cbc1af5809
