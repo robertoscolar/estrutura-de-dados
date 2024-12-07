@@ -16,23 +16,23 @@
 
 ## Explicação
 
-O **Selection Sort** é um algoritmo simples de ordenação que divide a lista em duas partes: uma parte ordenada e outra não ordenada. Ele seleciona iterativamente o menor elemento da parte não ordenada e o move para o final da parte ordenada.
+O **Selection Sort** é um algoritmo simples de ordenação que percorre repetidamente a lista para selecionar o menor elemento na parte não ordenada e trocá-lo com o primeiro elemento da parte não ordenada. A cada iteração, a parte ordenada da lista cresce e a parte não ordenada diminui até que toda a lista esteja ordenada.
 
-Embora seja fácil de implementar, ele não é eficiente para listas grandes devido à sua complexidade quadrática em todos os casos.
+Embora seja fácil de implementar e tenha uma estrutura simples, o algoritmo não é eficiente para listas grandes devido à sua complexidade quadrática em todos os casos, já que ele realiza comparações desnecessárias, mesmo quando a lista já está parcialmente ordenada.
 
 ---
 
 ## Passo-a-passo
 
 1. **Início do Processo**:
-   - Divida a lista em duas partes: ordenada (inicialmente vazia) e não ordenada.
+   - O algoritmo começa na primeira posição da lista, considerando a parte não ordenada como toda a lista inicial.
 
 2. **Seleção do Menor Elemento**:
-   - Percorra a lista não ordenada para encontrar o menor elemento.
+   - Percorra a parte não ordenada da lista para encontrar o menor elemento.
    - Troque o menor elemento com o primeiro elemento da parte não ordenada.
 
 3. **Repita o Processo**:
-   - Expanda a parte ordenada e reduza a não ordenada.
+   - A cada iteração, o alcance da parte não ordenada diminui e a parte ordenada cresce.
    - Continue até que toda a lista esteja ordenada.
 
 ---
