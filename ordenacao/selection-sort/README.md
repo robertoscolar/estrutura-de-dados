@@ -8,6 +8,10 @@
 | Caso médio           | O(n²)        | O número de comparações é o mesmo em todos os casos.                      |
 | Pior caso            | O(n²)        | Mesmo no pior caso, o número de comparações permanece constante.          |
 
+## Complexidade de Espaço
+
+- O(1) (in-place, apenas algumas variáveis extras são usadas)
+
 ---
 
 ## Explicação
