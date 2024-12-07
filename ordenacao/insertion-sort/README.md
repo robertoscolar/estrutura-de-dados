@@ -8,6 +8,10 @@
 | Caso médio           | O(n²)        | Combinações típicas exigem múltiplos deslocamentos e inserções.           |
 | Pior caso            | O(n²)        | Quando a lista está em ordem reversa, exige o máximo de deslocamentos.    |
 
+## Complexidade de Espaço
+
+- O(1) (in-place, apenas algumas variáveis extras são usadas)
+
 ---
 
 ## Explicação
