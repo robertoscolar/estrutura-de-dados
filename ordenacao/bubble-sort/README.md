@@ -2,15 +2,12 @@
 
 ## Complexidade de Tempo (Big O)
 
-| Caso                 | Complexidade |
-|----------------------|--------------|
-| Melhor caso (ordenado) | O(n)         |
-| Caso médio            | O(n²)        |
-| Pior caso            | O(n²)        |
+| Caso                    | Complexidade | Descrição                                                                 |
+|-------------------------|--------------|---------------------------------------------------------------------------|
+| Melhor caso             | O(n)         | Quando a lista já está ordenada, é feita apenas uma passagem sem trocas.  |
+| Caso médio              | O(n²)        | Combinações típicas de elementos exigem múltiplas trocas e comparações.   |
+| Pior caso               | O(n²)        | Quando a lista está em ordem reversa, exige o máximo de trocas possíveis. |
 
-## Complexidade de Espaço
-
-- O(1) (in-place, apenas algumas variáveis extras são usadas)
 
 ---
 
@@ -68,4 +65,18 @@ Dada a lista: `[5, 3, 8, 6, 2]`
    - `[3, 2, 5, 6, 8]` → Troca 3 e 2 → `[2, 3, 5, 6, 8]`
 
 5. **Fim do Processo**:
+<<<<<<< HEAD
    - Lista final: `[2, 3, 5, 6, 8]` (ordenada).
+=======
+   - Lista final: `[2, 3, 5, 6, 8]` (ordenada).
+  
+---
+
+## Quando usar?
+
+Use o **Bubble Sort** apenas para:
+   - Educação e aprendizado de algoritmos de ordenação.
+   - Conjuntos de dados muito pequenos.
+
+Para aplicações reais e listas maiores, prefira algoritmos mais eficientes, como **Merge Sort** ou **Quick Sort**.
+>>>>>>> ebb5a185155a50e655ff67dc6ded05cbc1af5809
