@@ -14,6 +14,8 @@ def selection_sort(lista):
             lista[i] = lista[min_index]
             lista[min_index] = variavel_auxiliar 
 
+
+#Execute
 if __name__ == "__main__":
     lista = random.sample(range(1, 1000), 5)
     print(f"Lista Original: {lista}\n")

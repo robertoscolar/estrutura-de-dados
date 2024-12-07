@@ -9,6 +9,8 @@ def bubble_sort(lista):
                 lista[j] = lista[j+1]
                 lista[j+1] = variavel_auxiliar
 
+
+#Execute
 if __name__ == "__main__":
     lista = random.sample(range(1, 1000), 5)
     print(f"Lista Original: {lista}\n")
