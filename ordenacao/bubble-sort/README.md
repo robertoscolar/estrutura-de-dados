@@ -8,6 +8,10 @@
 | Caso médio              | O(n²)        | Combinações típicas de elementos exigem múltiplas trocas e comparações.   |
 | Pior caso               | O(n²)        | Quando a lista está em ordem reversa, exige o máximo de trocas possíveis. |
 
+## Complexidade de Espaço
+
+- O(1) (in-place, apenas algumas variáveis extras são usadas)
+
 ---
 
 ## Explicação
